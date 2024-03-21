@@ -5,8 +5,8 @@
 
 .main{
     width: 100%;
-    background-color: #15202B;
     height: 109vh;
+    background-color: #15202B;
 }
 
 .navbar{
@@ -17,17 +17,17 @@
 
 .icon{
     width: 200px;
-    float: left;
     height: 70px;
+    float: left;
 }
 
 .logo{
     color: #FFFFFF;
     font-size: 35px;
     font-family: Arial;
+    padding-top: 10px;
     padding-left: 20px;
     float: left;
-    padding-top: 10px;
 }
 
 ul{
@@ -56,6 +56,97 @@ ul li a:hover{
     color: #1DA1F2
 }
 
+.content{
+    width: 1068px;
+    height: auto;
+    margin: auto;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 130px;
+    letter-spacing: 2px;
+}
+
+.content .par{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: -20px;
+    left: 780px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 150px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: Arial;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #8899A6;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #8899A6;
+}
+
+.btn:hover{
+    background: #1DA1F2;
+    color: #1DA1F2;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link .a{
+    text-decoration: none;
+    color: #8899A6;
+}
+
+
+
 /*
 .search{
     width: 600px;
@@ -83,6 +174,7 @@ ul li a:hover{
 }
 */
 
+/*
 .content{
     width: 1200px;
     height: auto;
@@ -105,3 +197,4 @@ ul li a:hover{
     padding-left: 20px;
     letter-spacing: 2px;
 }
+*/
